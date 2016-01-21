@@ -1,0 +1,19 @@
+.EQ
+.EN
+.begin dformat
+style bitwid 0.08
+style charwid 0
+style recspread 0.3
+style linethrutext 0
+ISO over tcp
+        4--12 TPKT
+        3--9 ISO-COTP
+  A1:   --30 S7 PDU
+S7PDU
+  A2:   10--12 Header
+        --14 Parameters
+  A3:   --25-dashed Data
+
+pic line dotted from A1.sw to A2.nw
+pic line dotted from A1.se to A3.ne
+.end

@@ -1,0 +1,15 @@
+.begin dformat
+style bitwid 0.05
+style linethrutext 0
+Userdata
+        0-23 Protocol Constant
+        24-31 Length
+		32-39 Origin
+		40--4 Send Type
+		44--4 Message Function
+		48-55 Subfunction
+		56-63 Sequence
+		64-71-8-dashed Data Reference
+		72-79-8-dashed Last Data Unit
+		80-95-16-dashed Error Code
+.end
